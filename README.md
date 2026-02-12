@@ -3,6 +3,7 @@ title: Movie Poster Genre Classifier
 emoji: 🎬
 colorFrom: purple
 colorTo: blue
+python_version: "3.10"
 sdk: gradio
 sdk_version: "6.5.1"
 app_file: app.py
