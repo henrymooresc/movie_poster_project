@@ -1,3 +1,20 @@
+---
+title: Movie Poster Genre Classifier
+emoji: 🎬
+colorFrom: purple
+colorTo: blue
+sdk: gradio
+sdk_version: "6.5.1"
+app_file: app_gradio.py
+pinned: false
+license: mit
+tags:
+  - image-classification
+  - multi-label
+  - fastai
+  - movie-posters
+---
+
 # 🎬 Movie Poster Genre Classifier
 
 Multi-label movie genre classification from poster images using deep learning. This model predicts movie genres directly from poster artwork using a fine-tuned ResNet50 architecture.
