@@ -1,5 +1,5 @@
 data/
-*.csv:Zone.Identifier
+*.csv
 
 # Model files (large, don't commit to git)
 *.pkl
