@@ -1,2 +1,39 @@
 data/
 *.csv:Zone.Identifier
+
+# Model files (large, don't commit to git)
+*.pkl
+*.pth
+*.pt
+models/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temporary files
+temp_poster.jpg
+*.tmp
+
+# Logs
+*.log
