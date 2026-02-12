@@ -1,5 +1,6 @@
 data/
 *.csv
+*vocab.txt
 
 # Model files (large, don't commit to git)
 *.pkl
