@@ -1,26 +1,8 @@
----
-title: Movie Poster Genre Classifier
-emoji: 🎬
-colorFrom: purple
-colorTo: blue
-python_version: "3.10"
-sdk: gradio
-sdk_version: "6.5.1"
-app_file: app.py
-pinned: false
-license: mit
-tags:
-  - image-classification
-  - multi-label
-  - fastai
-  - movie-posters
----
-
-# 🎬 Movie Poster Genre Classifier
+# Movie Poster Genre Classifier
 
 Multi-label movie genre classification from poster images using deep learning. This model predicts movie genres directly from poster artwork using a fine-tuned ResNet50 architecture.
 
-## 🎯 Model Description
+## Model Description
 
 - **Architecture**: ResNet50 (transfer learning)
 - **Framework**: FastAI/PyTorch
@@ -28,7 +10,7 @@ Multi-label movie genre classification from poster images using deep learning. T
 - **Training Data**: ~7,900 movie posters with genre labels
 - **Genres**: Action, Adventure, Animation, Biography, Comedy, Crime, Documentary, Drama, Family, Fantasy, History, Horror, Music, Mystery, News, Romance, Sci-Fi, Sport, Thriller, War, Western
 
-## 🚀 Usage
+## Usage
 
 ### Quick Start with Python
 
@@ -57,7 +39,7 @@ python app_gradio.py
 
 Then open your browser to interact with the model via a web UI.
 
-## 📊 Performance
+## Performance
 
 The model uses several improvements for better accuracy:
 
@@ -75,7 +57,7 @@ The model uses several improvements for better accuracy:
 - **Test Time Augmentation**: Optional TTA for improved accuracy
 - **Batch Processing**: Process multiple posters at once
 
-## 🏋️ Training
+## Training
 
 To train your own model:
 
@@ -92,14 +74,14 @@ Training options include:
 - Advanced discriminative learning rates
 - Progressive resizing (224→448)
 
-## 📁 Files
+## Files
 
 - `train_model.py` - Complete training pipeline with improvements
 - `app_gradio.py` - Gradio web interface for the model
 - `movie_genre_classifier_export.pkl` - Exported model for inference
 - `movie_genre_classifier_vocab.txt` - Genre vocabulary
 
-## 🎓 Model Improvements
+## Model Improvements
 
 This model incorporates several best practices:
 
@@ -111,26 +93,6 @@ This model incorporates several best practices:
 6. **Threshold Optimization** - Per-genre threshold tuning
 7. **Mixed Precision** - Faster training with FP16
 
-## 📝 Citation
-
-If you use this model, please cite:
-
-```bibtex
-@misc{movie_poster_genre_classifier,
-  author = {Henry Moore},
-  title = {Movie Poster Genre Classification},
-  year = {2026},
-  publisher = {HuggingFace},
-  howpublished = {\url{https://huggingface.co/...}}
-}
-```
-
 ## 📄 License
 
 This model is released under the MIT License. The training data comes from IMDb posters and should be used in accordance with IMDb's terms of service.
-
-## 🙏 Acknowledgments
-
-- Built with [FastAI](https://www.fast.ai/)
-- Pretrained weights from PyTorch
-- Dataset sourced from IMDb
