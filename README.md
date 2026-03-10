@@ -1,6 +1,7 @@
 # Movie Poster Genre Classifier
 
 Multi-label movie genre classification from poster images using deep learning. This model predicts movie genres directly from poster artwork using a fine-tuned ResNet50 architecture.
+Hosted at: https://huggingface.co/spaces/henrypmoore/movie-poster-genre-classifier
 
 ## Model Description
 
